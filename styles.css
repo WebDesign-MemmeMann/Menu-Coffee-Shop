@@ -1,9 +1,25 @@
 body {
     background-color: burlywood;
-    background-image: url("Images/Background_Iced_Coffee_.jpg")
+    font-family: "Courier New", monospace;
+}
+
+.coffeeBox{
+    width: 175px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    display: inline-block; 
+}
+
+.menuItem{
+    max-width: 100px;
+    width: 10vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
-    color: brown;
+    background-color: brown;
 }
-
