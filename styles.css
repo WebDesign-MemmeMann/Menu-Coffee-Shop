@@ -1,15 +1,25 @@
 body {
     background-color: burlywood;
-    font-family: "Courier New", monospace;
+    font-family: "Source Sans Pro", "Poppins", sans-serif;
 }
+
+.logoBox{
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    background-color: brown;
+    border-radius: 10%;
+}
+
 
 .coffeeBox{
     width: 175px;
     padding: 10px;
+    margin: 10px;
     background-color: white;
     text-align: center;
-    margin: 10px;
-    display: inline-block; 
+    display: inline-block;
+    border-radius: 15%;
 }
 
 .menuItem{
@@ -18,8 +28,4 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
-}
-
-h1 {
-    background-color: brown;
 }
